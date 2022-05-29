@@ -1,0 +1,56 @@
+Java 8 features
+-----------------------
+1.Interface enhancement
+2.functional interface
+3.lambda expression(anonymous function)-->does something and return something
+4.Stream api which help us easily handle collections
+5.date time api(operate with data dn time classes without using date formater or more..)
+
+--------------------------------------------
+1.interface enhancement
+default method
+In java7 if we want to add anew functionality then the classes who are implemneting the vehicle will show us erro that u have its implemnettaion.
+to address this java said i will give u a default method
+
+@we can have one or more default method in interface 
+it help us achieve backword compatibility
+
+@STATIC METHOD==>
+you cannot override static methods
+static method are same as default but dont get available in implementing class
+
+
+
+FUNCTIONAL INTERFACE(SAM)(single abstarct method)
+dont have to create a class .
+create an object
+call a method and get and set things
+
+you dont have to create a java class 
+u dont have to create a method
+bypass concept of clas and methods
+
+1.Must have only 1 abstarct method
+2.Can have static methods 
+3.Can have default methods
+4.It act as placeholdeer for a lambda function
+
+
+STREAM API
+All collections can call streams and use themr4
+
+paralle stream
+if u r not worried about the sequence
+
+where u need to maintain order do not go for parallel stream
+
+------------------------------------------------------
+PREDICATES
+->Predefined functional interface
+->return boolean
+
+
+
+MAP
+helps to transform the data 
+
